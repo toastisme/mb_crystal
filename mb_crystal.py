@@ -380,7 +380,7 @@ class MbCrystal:
         self.unique_dimers = [unique_dimers[i] for i in unique_dimers]
         self.mapped_dimer_names = mapped_dimer_names
         
-    def get_two_body_converged_distance(self, energy_threshold, multipole_file, num_rolling_avg=5,
+    def populate_dimers_by_convergence(self, energy_threshold, multipole_file, num_rolling_avg=5,
                                        min_atom_contact_limit=8, max_atom_contact_limit=15,
                                        rmsd_threshold=2.0):
         """
