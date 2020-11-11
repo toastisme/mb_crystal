@@ -1,5 +1,5 @@
 from cspy.alpha.crystal import Molecule, CrystalStructure
-from code.packing_opt.dimer import Dimer
+from dimer import Dimer
 import numpy as np
 import copy
 import os
